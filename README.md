@@ -45,7 +45,7 @@ In order to compare the DSUR solution to the global optimum, one can
 solve the CIAP by Gurobi and use the solution as MIP start:
 
 ``` python
-runtime, eps_opt, eps_dsur = solveCIAPMDT(b_rel, dt, 3, 3, start_sol=b_bin, gurobi_env=None)
+runtime, eps_opt, eps_dsur = solveCIAPMDT(b_rel, dt, 3, 3, start_sol=b_bin)
 ```
 
 Here `eps_opt` and `eps_dsur` denote the objective values of the corresponding
