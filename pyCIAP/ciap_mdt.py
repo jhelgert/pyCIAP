@@ -10,8 +10,8 @@ def solveCIAPMDT(alpha, dt, C_U, C_D, start_sol=None, gurobi_env=None, debug=Fal
     Args:
         alpha (np.array): given relaxed control
         dt (float): equidistant discretization step size
-        C_U (int): minimum up dwell time (multiple of dt)
-        C_D (int): minimum down dwell time (multiple of dt)
+        C_U (int): number of minimum up dwell time steps, i.e. multiples of dt
+        C_D (int): number of minimum down dwell time step, i.e. multiples of dt
         start_sol (np.array): mip start solution. Defaults to None.
 
     Returns:
