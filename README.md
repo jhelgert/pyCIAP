@@ -31,7 +31,7 @@ dt = 1.0
 time = np.arange(0, b_rel.shape[1], dt)
 
 # Computes a binary control fulfilling the minimum dwell times
-# The dwell times are always in number time steps, i.e. multiple of dt
+# The dwell times are always in number of time steps, i.e. multiples of dt
 b_bin = DSUR(b_rel, 1.0, time, min_up_time=3, min_down_time=3)
 ```
 gives
