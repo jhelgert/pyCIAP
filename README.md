@@ -1,6 +1,8 @@
 
 # pyCIAP
 
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/jhelgert/pyCIAP)
+
 This a very simple package to solve the Combinatorial Integral Approximation Problem (CIAP)
 including dwell-time constraints by a dwell-time sum-up rounding algorithm, see [1]
 for the theoretical results. 
