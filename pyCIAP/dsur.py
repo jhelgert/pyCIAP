@@ -74,4 +74,4 @@ def DSUR(alpha, dt, time, min_up_time, min_down_time):
             j = max(Jsur) + 1
         # Update the set of down time forbidden configurations
         forbidden_configs = down_time_forbidden_configs(j, beta, dt, C)
-    return beta.astype(np.int)
+    return beta.astype(np.int32)
