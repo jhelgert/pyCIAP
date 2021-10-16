@@ -3,17 +3,26 @@
 
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/jhelgert/pyCIAP)
 
-This a very simple package to solve the Combinatorial Integral Approximation Problem (CIAP)
+This a tiny package to solve the Combinatorial Integral Approximation Problem (CIAP)
 including dwell-time constraints by a dwell-time sum-up rounding algorithm, see [1]
-for the theoretical results. 
+for the theoretical results.
 
 ## Install
 
-Clone this repo and then run
+Thanks to to the wheels, you can install the package like this
+
 ```
-python3 setup.py install
+pip3 install pyCIAP
 ```
-inside the repo directory.
+
+
+Alternatively, you can build and install from source 
+
+``` 
+pip3 install git+https://github.com/jhelgert/pyCIAP
+```
+
+However, note that the latter requires Cython and a installed C++ compiler.
 
 ## Example:
 
